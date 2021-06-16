@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mi pagina personal</title>
+</head>
+<body>
+
+<h1>Miguel Pan</h1>
+
+<html>
+<head>
+<style>
+body {
+  background-color: Black;
+  color: White;
+}
+
+h2 {
+  background-color: navy;
+  color: yellow;
+}
+h3 {
+  background-color: navy;
+  color: yellow;
+}
+h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+h3 {
+  font-family: "Times New Roman", Times, serif;
+}
+.p1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+div {
+  text-align: justify;
+}
+th {
+  background-color: crimson;
+}
+h1 {
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<center><img src="Cartoonify.png" width="150" height="150" alt="Miguel Pan"  align = “center”></center>
+<h2>Biografía</h2>
+<div><p class="p1">  Hola, me llamo Miguel, Nací el 28 de febrero de 2003 en la Ciudad de Panamá y tengo 18 años. Me considero una persona audaz y competitiva, aunque algo tímido y callado cuando me encuentro con personas que no conozco. </p>
+<hr></div>
+<h2>Favoritos</h2>
+<h3>Platos</h3>
+<ul>
+<li>Pizza</li>
+<li>Hamburguesa</li>
+<li>Ensalada de papa con deditos de pollo</li>
+</ul>
+<h3>Pasatiempos</h3>
+<ol>
+<li>Jugar ajedrez y videojuegos</li>
+<li>Ver anime</li>
+<li>Hacer deportes</li>
+</ol>
+<h3>Canciones</h3>
+<center>  <table  border="1">
+<tr>
+<th>Genero</th>
+<th>Nombre</th>
+<th>Autor</th>
+<th>Audio</th>
+</tr>
+<tr>
+<td>Rock alternativo/Indie</td>
+<td>Stronger</td>
+<td>The Score</td>
+<td><audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="the-score-stronger.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio></td>
+</tr>
+<tr>
+<td>Rock alternativo/Indie</td>
+<td>Unstoppable</td>
+<td>The Score</td>
+<td><audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="the-score-unstoppable-lyric-video.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio></td>
+</tr>
+<tr>
+<td>Rock/pop</td>
+<td>Takeover</td>
+<td>League of Legends</td>
+<td><audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="take-over-ft-jeremy-mckinnon-a-day-to-remember-max-henry-worlds-2020-league-of-legends.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio></td>
+</tr>
+</table></center>
+<h3>Serie</h3>
+<center><img src="SNK.jpg" width="250" height="150" alt="Shingeki no Kyojin (Attack On Titan)"  align = “center”> <br>
+<a href="https://tioanime.com/anime/shingeki-no-kyojin">Shingeki no Kyojin (Attack On Titan)</a></center>
+<h3>Película</h3></center>
+<center>Demon Slayer: Infinity Train <br><br>
+<img src="KNY.jpg" width="200" height="300" alt="Demon Slayer: Infinity Train"  align = “center”> <br>
+<video width="320" height="240" controls>
+  <source src="demon-slayer-mugen-train-trailer.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video></center>
+<form>
+Nombre: <input type="text"/>  <br/><br/>
+Correo: <input type="text"/>   <br/><br/>
+Asunto: <input type="text"/>  <br/><br/>
+Mensaje: <input type="text"/>  <br/><br/>
+<input type="submit" value="Enviar"/>
+</form>
+</body>
+</html>
